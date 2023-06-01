@@ -1,7 +1,154 @@
+
+body{
+    background-color:black;
+    color: white;
+   
+}
+section{
+    border-bottom: solid;
+    border-color: white;
+    border-width: 0px;
+    flex-wrap: wrap;
+    padding: 10px ;
+    padding-bottom: 50px;
+    
+}
+  
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Flex box*/
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+} 
+
+.flex-child{
+flex: 1;
+border :2px solid white;
+max-width:600px
+}
+
+
+.box{
+    width: 450px;
+    padding-top:5px;
+    border-style:none;
+    border-color: white;
+    border-width: 1px;
+    padding-left: 3px;
+    padding-bottom: 10px;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    
+}
+
+/*General*/
+
+
 .top{
     text-align:center;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    color: white;
+   
     display: block;
+    font-size:50px;
 }
+
+
+   
+
+.links{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:green;
+}
+
+#certs{
+    font-size:20px;
+    text-align: center;
+    background-color:green;
+}
+.Experience{
+    display:flex;
+    border-bottom-width:0px;
+}
+
+.Exerience-child{
+    justify-content: center;
+    border-bottom-width:0px;
+}
+
+
+/* Image Cropping*/
+
+.image-cropper {
+    width: 600px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-cropper img{
+    display:block;
+    margin: 0 auto;
+    height: auto;
+    width: 150%;
+    margin: 0 0 0 -20%;
+}
+
+
+
+
+/*Nav Bar*/
+.side-bar {
+    width:160px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:green;
+}
+
+nav ul{
+    padding:0;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 0.6rem 0.3rem;
+    font-weight:400;
+    transition: all ease-out 250ms;
+}nav li a:hover{
+    color: rgb(96, 240, 221)
+}
+.main-content{
+margin-left:160px;
+border-left-style: solid;
+border-left-color: white;
+border-bottom-style: none;
+}
+
+
+
+   
